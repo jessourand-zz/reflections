@@ -1,0 +1,47 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    The Diff command will show with a + and - which lines have been changed from
+    the old version (-), and the new version (+) of the file.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    You would be able to see every change that was made to the program by
+    comparing every version of it to the next, therefore more easily discovering
+    if/when a bug is introduced.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    By manually choosing when to create a commit, you are more likely to save at
+    logical points, as you create or fix issues. Instead of relying on saving at
+    timed intervals.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    It is much more likely, when programming, that you'll be working with
+    multiple, interrelated files. Whereas with Google Docs, it is likely that
+    you are typing document or presentation that would benefit from frequent,
+    time-sensitive saves.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    Git log allows you to show every version of a file that has been saved,
+    with a time stamp and user ID of who saved it. Git diff
+    allows you to view the differences between two versions of a file. (Use
+    git diff old_file new_file. Older file, chronologically, first)
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Version control allows you to save your program at any interval, with the
+    ability to revert to any version of the program without fear of breaking it.
+    If you were to make a drastic change to a working program and find that it is
+    no longer working, you could easily revert to a previous, working version.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    To build something fantastic.
